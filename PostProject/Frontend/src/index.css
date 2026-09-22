@@ -1,0 +1,214 @@
+
+body{
+    margin: 0px;
+}
+
+.create-Section{
+    height: 100vh;
+    width: 100vw;
+     display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    background-color: rgb(238, 238, 237);
+    margin: 0;
+   
+}
+
+form{
+    
+    width: 83vw;
+    background-color: rgb(254, 254, 254);
+    padding: 30px 20px;
+    margin: 10px 4px;
+    border-radius: 6px;
+
+}
+
+input{
+    margin: 16px 0px;
+    padding: 9px;
+    border: 1px solid black ;
+    font-size: 16px;
+    border-radius: 5px;  
+}
+
+
+button{
+    display: flex;
+    background-color: rgb(70, 182, 216);
+    border: none;
+    padding: 6px 8px;
+    height: 45px;
+    width: 109px;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    border-radius: 4px;
+    position: relative;
+    left: 90px;
+  /* margin: 16px; */
+}
+
+button:hover{
+    cursor: pointer;
+    
+
+}
+
+
+.caption{
+    width: 290px;
+}
+
+
+h3{
+    margin: 5px;
+    padding: 4px;
+}
+
+.outer {
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 30px 20px;
+
+    background-color: rgb(238, 238, 237);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+}
+
+
+
+
+.feed-title {
+    margin: 0 0 10px 0;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    color: cornflowerblue;
+
+    text-decoration: underline;
+
+    font-family:
+        'Gill Sans',
+        'Gill Sans MT',
+        Calibri,
+        'Trebuchet MS',
+        sans-serif;
+}
+
+
+
+
+.con {
+    width: min(600px, 95vw);
+
+    box-sizing: border-box;
+
+    background-color: white;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+
+
+
+.con img {
+    display: block;
+
+    width: 100%;
+    height: 350px;
+
+    border-radius: 8px;
+
+    object-fit: cover;
+
+    object-position: center;
+}
+
+
+
+.con h2 {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 6px 4px;
+
+    /* font-size: 26px; */
+    font-weight: 500;
+
+    align-self: flex-start;
+
+    word-wrap: break-word;
+}
+
+.captionDown{
+    height: 34px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    
+
+}
+.captionDown h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+.no-post {
+    margin-top: 30px;
+
+    font-size: 22px;
+    color: #555;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .outer {
+        padding: 20px 10px;
+    }
+
+    .feed-title {
+        font-size: 24px;
+    }
+
+    .con {
+        width: 95vw;
+        padding: 8px;
+    }
+
+    .con img {
+        height: 280px;
+    }
+
+    .con h2 {
+        font-size: 16px;
+    }
+}
